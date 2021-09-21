@@ -78,8 +78,8 @@ h2 {
 }
 
 .card-pic {
-    width: 100px;
-    height: 70px;
+    width: 200px;
+    height: 120px;
     border-radius: 20px;
     border: solid 2px #1F2937;
 }
@@ -103,6 +103,7 @@ h3 {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    padding: 30px;
 }
 
 footer {
