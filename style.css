@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+.header {
+    margin: 0;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 2px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.white-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
+    height: 237px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.card-pic {
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    border: solid 2px #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    gap: 70px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.section-three  {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin: 50px 200px;
+    width: 600px;
+    color: #E5E7EB;
+
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
